@@ -51,7 +51,7 @@ module.exports = {
             group: 'internal',
           },
           {
-            pattern: '@utils/**',
+            pattern: '@mocks/**',
             group: 'internal',
           },
         ],

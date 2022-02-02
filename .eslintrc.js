@@ -1,12 +1,9 @@
 module.exports = {
-  ignorePatterns: [
-    '.eslintrc.js'
-  ],
+  ignorePatterns: ['.eslintrc.js'],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:prettier/recommended',
-    'plugin:jsx-a11y/recommended',
   ],
   env: {
     browser: true,
@@ -146,7 +143,7 @@ module.exports = {
     'no-caller': 'error',
     'no-cond-assign': 'error',
     'no-console': 'off',
-    'no-debugger': 'error',
+    // 'no-debugger': 'error',
     'no-duplicate-case': 'error',
     'no-duplicate-imports': 'error',
     'no-empty': 'off',
